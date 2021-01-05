@@ -204,12 +204,12 @@
   right: 0;
   background: rgba(0, 0, 0, 0.35);
   padding: 100px 28px;
-  color: #ffffff;
   z-index: 1;
 }
 
 .solution-info__wrap h3 {
   text-transform: uppercase;
+  color: #ffffff;
 }
 
 .solution-info__wrap p,
@@ -258,5 +258,37 @@
 .solution-info__statistics div .solution-info__statistics-number {
   font-size: 48px;
   font-weight: 700;
+}
+
+.cat-product {
+  padding: 50px 0 45px;
+}
+
+.cat-product .slick-track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.cat-product__heading {
+  text-transform: uppercase;
+  color: var(--primary-color);
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.cat-product__heading + p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.cat-product__slider-title {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: var(--primary-color);
 }
 /*# sourceMappingURL=main.css.map */

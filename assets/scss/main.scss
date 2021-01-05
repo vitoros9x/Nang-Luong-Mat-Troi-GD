@@ -202,11 +202,11 @@
   right: 0;
   background: rgba(0, 0, 0, 0.35);
   padding: 100px 28px;
-  color: #ffffff;
   z-index: 1;
 
   h3 {
     text-transform: uppercase;
+    color: #ffffff;
   }
 
   p,
@@ -253,5 +253,41 @@
 
 // -------------------------------
 
+.cat-product {
+  padding: 50px 0 45px;
 
+  .slick-track {
+    display: flex;
+    justify-content: space-between;
+  }
+}
 
+.cat-product__heading {
+  text-transform: uppercase;
+  color: var(--primary-color);
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.cat-product__heading + p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.cat-product__slider-item {
+}
+
+.cat-product__slider-img {
+}
+
+.cat-product__slider-info {
+}
+
+.cat-product__slider-title {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: var(--primary-color);
+}
+
+// -----------------------------------------------
