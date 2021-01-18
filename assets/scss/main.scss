@@ -291,3 +291,18 @@
 }
 
 // -----------------------------------------------
+.guarantee {
+  padding: 35px 0;
+}
+
+.guarantee__heading__wrap {
+  width: 74.5%;
+  margin: auto;
+  text-align: center;
+}
+
+.guarantee__heading {
+  @extend .cat-product__heading;
+  line-height: 1.5em;
+  
+}

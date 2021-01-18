@@ -273,7 +273,7 @@
           justify-content: space-between;
 }
 
-.cat-product__heading {
+.cat-product__heading, .guarantee__heading {
   text-transform: uppercase;
   color: var(--primary-color);
   text-align: center;
@@ -281,7 +281,7 @@
   font-size: 30px;
 }
 
-.cat-product__heading + p {
+.cat-product__heading + p, .guarantee__heading + p {
   text-align: center;
   margin-top: 10px;
 }
@@ -290,5 +290,19 @@
   font-size: 20px;
   text-transform: uppercase;
   color: var(--primary-color);
+}
+
+.guarantee {
+  padding: 35px 0;
+}
+
+.guarantee__heading__wrap {
+  width: 74.5%;
+  margin: auto;
+  text-align: center;
+}
+
+.guarantee__heading {
+  line-height: 1.5em;
 }
 /*# sourceMappingURL=main.css.map */
